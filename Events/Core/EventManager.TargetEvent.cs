@@ -20,7 +20,7 @@ namespace CabinIcarus.IcED.Events
         {
             static TargetEvent()
             {
-                events = new Dictionary<EventTarget, HashSet<Delegate>>(new EventHookComparer());
+                events = new Dictionary<EventTarget, HashSet<Delegate>>(new EventTargetComparer());
             }
 
             private static readonly Dictionary<EventTarget, HashSet<Delegate>> events;
