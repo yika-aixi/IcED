@@ -9,7 +9,7 @@ using System.Collections.Generic;
 
 namespace CabinIcarus.IcED.Events.Core
 {
-    public class EventHookComparer : IEqualityComparer<EventTarget>
+    public class EventTargetComparer : IEqualityComparer<EventTarget>
     {
         public bool Equals(EventTarget x, EventTarget y)
         {
